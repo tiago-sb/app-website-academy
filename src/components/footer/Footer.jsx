@@ -4,7 +4,8 @@ import { FaInstagram, FaTwitter, FaFacebook } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <footer style={{ backgroundColor: '#242424' }} className="text-white py-3">
+    <footer style={{ backgroundColor: '#242424' }} 
+      className={`text-white py-3`}>
       <Container>
         <Row>
           <Col>

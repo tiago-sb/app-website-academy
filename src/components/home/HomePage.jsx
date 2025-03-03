@@ -3,10 +3,13 @@ import Button from 'react-bootstrap/Button'
 import ImageGridComponent from './gridComponent/imageGridComponent'
 import ListGroup from 'react-bootstrap/ListGroup'
 import Form from 'react-bootstrap/Form'
+import NavBar from '../navBar/NavBar'
+import Footer from '../footer/Footer'
 
 const HomePage = () => {
   return (
     <>
+      <NavBar />
       <section style={{
         background: 'url("./assets/images/main_images/main_fund.jpg") center/cover no-repeat fixed #242424',
         height: '100vh', width: '100%', padding: 10, display: 'flex', flexDirection: 'row', alignItems: 'flex-end'}}>
@@ -18,7 +21,9 @@ const HomePage = () => {
             </h2>
           </Col>
           <Col style={{ display: 'flex', justifyContent: 'flex-end' }}>
-            <Button style={{ borderRadius: 50}} variant="light">Faça Parte da Família!</Button>
+            <Button style={{ borderRadius: 50}} variant="light">
+              Faça Parte da Família!
+            </Button>
           </Col>
         </Container>
       </section>
@@ -168,6 +173,7 @@ const HomePage = () => {
         <ImageGridComponent src="./assets/images/square_images/i5.jpg" />
         <ImageGridComponent src="./assets/images/square_images/i6.jpg" />
       </section>
+      <Footer />
     </>
   )
 }

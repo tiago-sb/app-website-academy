@@ -9,18 +9,26 @@ const NavBar = () => {
     <Navbar style={{ fontFamily: 'Poppins, sans-serif'}} collapseOnSelect fixed="top"
       expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">Academy</Navbar.Brand>
+        <Navbar.Brand href="/">
+          Academy
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <NavDropdown title="Sobre" id="collapsible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Instrutores</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/sobre/instrutores">
+                  Instrutores
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/sobre/precos">
                 Preço
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#features">Agenda</Nav.Link>
-            <Nav.Link href="#pricing">Contato</Nav.Link>
+            <Nav.Link href="/agenda">
+              Agenda
+            </Nav.Link>
+            <Nav.Link href="/contato">
+              Contato
+            </Nav.Link>
           </Nav>
           <Nav.Link style={{ margin: 5}} 
             href="https://www.instagram.com/tiagobella.05/" target="_blank">

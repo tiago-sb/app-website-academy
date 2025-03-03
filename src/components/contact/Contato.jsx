@@ -1,9 +1,12 @@
 import { Container, Col, Row } from 'react-bootstrap'
 import Mapa from './Mapa'  
+import NavBar from '../navBar/NavBar'
+import Footer from '../footer/Footer'
 
 const Contato = () => {
   return (
     <>
+      <NavBar />
       <Container style={{ paddingTop: 100, paddingBottom: 100 }}>  
         <Row>
           <Col>
@@ -51,6 +54,7 @@ const Contato = () => {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </>
   )
 }

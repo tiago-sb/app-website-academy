@@ -1,9 +1,12 @@
-import { Container, Row, Col } from "react-bootstrap"
+import { Container, Row, Col } from 'react-bootstrap'
 import Button from 'react-bootstrap/Button'
+import NavBar from '../navBar/NavBar'
+import Footer from '../footer/Footer'
 
 const Agenda = () => {
   return (
     <>
+      <NavBar />
       <Container>
         <Row style={{ paddingTop: 100, paddingBottom: 100 }}>
           <Col>
@@ -216,6 +219,7 @@ const Agenda = () => {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </>
   )
 }
