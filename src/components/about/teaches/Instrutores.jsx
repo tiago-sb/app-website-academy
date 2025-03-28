@@ -12,7 +12,7 @@ const Instrutores = () => {
         <Row style={{ paddingBottom: 40 }}>
           <Col>
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="../../../../public/assets/images/teaches_images/t1.jpg" />
+              <Card.Img variant="top" src="/assets/images/teaches_images/t1.jpg" />
               <Card.Body>
                 <Card.Title style={{ fontFamily: 'Bebas Neue' }}>Carlos - Salvador</Card.Title>
                 <Card.Text style={{ fontFamily: 'Poppins' }}>
@@ -23,7 +23,7 @@ const Instrutores = () => {
           </Col>
           <Col>
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="../../../../public/assets/images/teaches_images/t3.jpg" />
+              <Card.Img variant="top" src="/assets/images/teaches_images/t3.jpg" />
               <Card.Body>
                 <Card.Title style={{ fontFamily: 'Bebas Neue' }}>Ana - Salvador</Card.Title>
                 <Card.Text style={{ fontFamily: 'Poppins' }}>
@@ -47,7 +47,7 @@ const Instrutores = () => {
         <Row>
           <Col>
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="../../../../public/assets/images/teaches_images/t5.jpg" />
+              <Card.Img variant="top" src="/assets/images/teaches_images/t5.jpg" />
               <Card.Body> 
                 <Card.Title style={{ fontFamily: 'Bebas Neue' }}>Romário - São Paulo</Card.Title>
                 <Card.Text style={{ fontFamily: 'Poppins' }}>
@@ -58,7 +58,7 @@ const Instrutores = () => {
           </Col>
           <Col>
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="../../../../public/assets/images/teaches_images/t2.jpg" />
+              <Card.Img variant="top" src="/assets/images/teaches_images/t2.jpg" />
               <Card.Body>
                 <Card.Title style={{ fontFamily: 'Bebas Neue' }}>Eduardo - São Paulo</Card.Title>
                 <Card.Text style={{ fontFamily: 'Poppins' }}>
@@ -69,7 +69,7 @@ const Instrutores = () => {
           </Col>
           <Col>
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="../../../../public/assets/images/teaches_images/t6.jpg" />
+              <Card.Img variant="top" src="/assets/images/teaches_images/t6.jpg" />
               <Card.Body>
                 <Card.Title style={{ fontFamily: 'Bebas Neue' }}>Maria - São Paulo</Card.Title>
                 <Card.Text style={{ fontFamily: 'Poppins' }}>
