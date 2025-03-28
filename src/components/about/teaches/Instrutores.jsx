@@ -34,7 +34,7 @@ const Instrutores = () => {
           </Col>
           <Col>
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="../../../../public/assets/images/teaches_images/t4.jpg" />
+              <Card.Img variant="top" src="./assets/images/teaches_images/t4.jpg" />
               <Card.Body>
                 <Card.Title style={{ fontFamily: 'Bebas Neue' }}>Carla - Salvador</Card.Title>
                 <Card.Text style={{ fontFamily: 'Poppins' }}>
