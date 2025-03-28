@@ -1,6 +1,5 @@
 import { Col, Container, Row } from 'react-bootstrap'
 import Button from 'react-bootstrap/Button'
-import ImageGridComponent from './gridComponent/imageGridComponent'
 import ListGroup from 'react-bootstrap/ListGroup'
 import Form from 'react-bootstrap/Form'
 import NavBar from '../navBar/NavBar'
@@ -52,12 +51,15 @@ const HomePage = () => {
         <Container style={{ paddingTop: 0, paddingBottom: 200 }}>
           <Row className='no-gutters d-flex justify-content-center align-items-center'>
             <Col className='d-flex justify-content-center'>
-              <ImageGridComponent src="././assets/images/main_images/main_section.jpg"
-              style={{ width: '25vw', height: 'auto' }} />
+              <img className="img-fluid" src="././assets/images/main_images/main_section.jpg" 
+                style={{ width: '25vw', height: 'auto' }}
+              />
             </Col>
             <Col className='d-flex justify-content-center'>
-              <ImageGridComponent src="././assets/images/main_images/main_section_2.jpg"
-              style={{ width: '25vw', height: 'auto' }} />
+              <img 
+                className="img-fluid" src="././assets/images/main_images/main_section_2.jpg" 
+                style={{ width: '25vw', height: 'auto' }}
+              />
             </Col>
           </Row>  
         </Container>
@@ -166,12 +168,12 @@ const HomePage = () => {
         display: 'flex', flexDirection: 'row', width: '100%', 
         height: '450px', overflow: 'hidden'  
       }}>
-        <ImageGridComponent src="./assets/images/square_images/i1.jpg" />
-        <ImageGridComponent src="./assets/images/square_images/i2.jpg" />
-        <ImageGridComponent src="./assets/images/square_images/i3.jpg" />
-        <ImageGridComponent src="./assets/images/square_images/i4.jpg" />
-        <ImageGridComponent src="./assets/images/square_images/i5.jpg" />
-        <ImageGridComponent src="./assets/images/square_images/i6.jpg" />
+        <img src="./assets/images/square_images/i1.jpg" />
+        <img src="./assets/images/square_images/i2.jpg" />
+        <img src="./assets/images/square_images/i3.jpg" />
+        <img src="./assets/images/square_images/i4.jpg" />
+        <img src="./assets/images/square_images/i5.jpg" />
+        <img src="./assets/images/square_images/i6.jpg" />
       </section>
       <Footer />
     </>
